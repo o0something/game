@@ -342,7 +342,7 @@ class lore():
                                 elif x.lower()=='b':
                                     print('Czujesz się źle z tym co zrobiłeś i z postanowieniem, że nie wyrządzisz więcej krzywdy na tym świecie , podchodzisz do skrzyni')
                                     self.ryczerz=True
-                    elif self.ryczerz:
+                    else:
                         print('.'*200 )
                         print("\nPodchodząc do skrzyni wyczuwasz złsą aurę z niej płynącą.\nJuż wiesz, że nie ma odwrotu po jej otwarciu. \n")
                         print("A.Podejdź do skrzyni\n")
